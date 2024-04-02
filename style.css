@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Futura";
+}
+
+#container {
+  width: 100%;
+  min-height: 100vh; /*viewport height, 100vh is 100% of the full height of the screen*/
+  padding: 10px;
+  background: #8f9779;
+}
+
+#todo {
+  width: 100%;
+  max-width: 540px;
+  background: #f5f5dc;
+  margin: 100px auto;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#todo h2 {
+  color: #6d4c41;
+}
+
+#addtask {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ece8d9;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#input-box {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-size: 10pt;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: #8f9779;
+  border-radius: 15px;
+  font-size: 15pt;
+  color: #f5f5dc;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
