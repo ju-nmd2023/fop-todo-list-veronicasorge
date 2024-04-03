@@ -39,7 +39,7 @@
   font-size: 10pt;
 }
 
-button {
+#addbutton {
   border: none;
   outline: none;
   background-color: #8f9779;
@@ -77,4 +77,19 @@ ul li.checked {
 
 ul li.checked::before {
   background-image: url(images/checked.png);
+}
+
+.deletebutton {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #8f9779;
+  font-size: 14pt;
+  position: fixed;
+  left: 600px;
+  cursor: pointer;
+}
+
+.deletebutton:hover {
+  background-color: #ece8d9;
 }
